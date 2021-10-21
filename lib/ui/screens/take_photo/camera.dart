@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
-import 'package:ocr_app/ui/screens/take_photo/camera_container.dart';
 import '../photo_preview/photo_preview.dart';
 
 class TakePictureContent extends StatefulWidget {

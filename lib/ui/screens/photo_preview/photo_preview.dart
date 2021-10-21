@@ -7,9 +7,15 @@ class DisplayPictureScreenArguments {
   DisplayPictureScreenArguments(this.imagePath);
 }
 
-class DisplayPictureScreen extends StatelessWidget {
+class DisplayPictureScreen extends StatefulWidget {
 
   static const routeName = '/preview';
+
+  @override
+  DisplayPictureScreenState createState() => DisplayPictureScreenState();
+}
+
+class DisplayPictureScreenState extends State<DisplayPictureScreen> {
 
   @override
   Widget build(BuildContext context) {
